@@ -12,9 +12,11 @@ app.use(bodyParser.json());
 // routes
 const api = require('../routes/api');
 const users = require('../routes/users');
+const posts = require('../routes/posts');
 
 app.use(api);
 app.use('/api/users', users);
+app.use('/api/posts', posts);
 
 app.listen(4200);
 console.log("running on 4200");

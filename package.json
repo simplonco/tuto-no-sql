@@ -1,0 +1,26 @@
+{
+  "name": "tuto-no-sql",
+  "version": "1.0.0",
+  "description": "Exo test sur MongoDB/Mongoose/NodeJS",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplonco/tuto-no-sql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplonco/tuto-no-sql/issues"
+  },
+  "homepage": "https://github.com/simplonco/tuto-no-sql#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.4",
+    "nodemon": "^1.14.12"
+  }
+}

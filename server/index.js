@@ -16,8 +16,8 @@ const users = require('../routes/users');
 app.use(api);
 app.use('/api/users', users);
 
-app.listen(8080);
-console.log("running on 8080");
+app.listen(4200);
+console.log("running on 4200");
 
 app.use((err, req, res, next) => {
     console.error(err);
